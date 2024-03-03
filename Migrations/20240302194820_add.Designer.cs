@@ -12,7 +12,7 @@ using myApi.Data;
 namespace myApi.Migrations
 {
     [DbContext(typeof(DevDbContext))]
-    [Migration("20240223013302_add")]
+    [Migration("20240302194820_add")]
     partial class add
     {
         /// <inheritdoc />
@@ -58,141 +58,141 @@ namespace myApi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("d78e3be5-4850-4c62-8872-892b67638867"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5120),
+                            Id = new Guid("897851d6-17cf-4565-9238-39df42069fd1"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(887),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Qúa hay và bổ ích",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5132),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(899),
                             UserName = "XiaoChun",
                             evaluate = 4.5
                         },
                         new
                         {
-                            Id = new Guid("f29ec837-61b6-401e-8554-7c9421759f87"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5135),
+                            Id = new Guid("222c83ed-8cad-43c2-8989-e3a411559823"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(902),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Tôi đã ra khi học khóa này!",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5135),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(903),
                             UserName = "CamTu",
                             evaluate = 4.0
                         },
                         new
                         {
-                            Id = new Guid("cdd5bb46-e89d-48d0-b6a0-4889a8d759f9"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5138),
+                            Id = new Guid("f576533c-2916-4413-b07a-d801c326c912"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(905),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Cần cập nhật thêm 1 số kiến thức",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5138),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(905),
                             UserName = "LienNguyen",
                             evaluate = 3.5
                         },
                         new
                         {
-                            Id = new Guid("2071600a-4027-41ba-9b3e-aa4a462ddc92"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5141),
+                            Id = new Guid("89681459-1f2d-4450-a768-e4cb8f0583b6"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(908),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Khóa học không phù hợp với tôi",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5141),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(908),
                             UserName = "TraMy",
                             evaluate = 3.0
                         },
                         new
                         {
-                            Id = new Guid("55b9aa86-18bc-4d83-99bc-bb4539f886e6"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5143),
+                            Id = new Guid("1edb48ad-5bf4-4c98-87a4-83494cebef60"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(910),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Quá là hay luôn",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5144),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(911),
                             UserName = "TrungNguyen",
                             evaluate = 4.5
                         },
                         new
                         {
-                            Id = new Guid("4a5c4260-a85a-42d8-822e-a620d35a9a27"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5147),
+                            Id = new Guid("9a1d4100-b3a7-4e43-8cdc-a94cc3e8d829"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(914),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Như cc!!!",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5148),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(914),
                             UserName = "TrungNguyen",
                             evaluate = 2.5
                         },
                         new
                         {
-                            Id = new Guid("e940c70a-79ce-4460-9ee4-8239b7b6d24b"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5150),
+                            Id = new Guid("1e623900-b20f-4d2f-8285-0a8e887d1f23"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(917),
                             ProductId = new Guid("7a2f9e3b-8a15-4c0b-b784-693c0e20d8a9"),
                             Title = "Qúa là tuyệt vời",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5150),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(917),
                             UserName = "ThuongNguyen",
                             evaluate = 3.5
                         },
                         new
                         {
-                            Id = new Guid("03e8a086-7335-4133-b50a-a17fd782ecb8"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5153),
+                            Id = new Guid("321e76de-5c8e-4413-8eb5-a61771413e99"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(921),
                             ProductId = new Guid("7a2f9e3b-8a15-4c0b-b784-693c0e20d8a9"),
                             Title = "Hay tôi đã học được nhiều thứ từ khóa học này",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5153),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(921),
                             UserName = "HoangGiang",
                             evaluate = 4.0
                         },
                         new
                         {
-                            Id = new Guid("d49b5e7d-45cd-4a47-8217-f34e7cfbe9d5"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5157),
+                            Id = new Guid("0858976a-24d1-415d-b59c-e34466ca87c3"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(924),
                             ProductId = new Guid("7a2f9e3b-8a15-4c0b-b784-693c0e20d8a9"),
                             Title = "Cần bổ xung thêm nhiều kiến thức hơn",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5158),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(924),
                             UserName = "XiaoChun",
                             evaluate = 4.5
                         },
                         new
                         {
-                            Id = new Guid("2c938b4e-a9b3-455a-95b8-57686afb0796"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5161),
+                            Id = new Guid("35950927-c332-45d8-aa64-72fdccbb2443"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(927),
                             ProductId = new Guid("7a2f9e3b-8a15-4c0b-b784-693c0e20d8a9"),
                             Title = "Hay vl!!!",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5161),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(928),
                             UserName = "XiaoChun",
                             evaluate = 4.0
                         },
                         new
                         {
-                            Id = new Guid("b7a170d7-f08f-415e-b39f-546aa4e0b0da"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5164),
+                            Id = new Guid("4db2131e-dabd-4373-8704-23d59c2c9ec0"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(930),
                             ProductId = new Guid("a572cd2d-72e4-4e1a-b3cc-84121a9f7a4e"),
                             Title = "Qúa tệ!!!",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5164),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(930),
                             UserName = "XiaoChun",
                             evaluate = 2.5
                         },
                         new
                         {
-                            Id = new Guid("fc4765a6-46b8-4e64-a3f9-cb7cbb5feeef"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5166),
+                            Id = new Guid("711d1288-4bab-459e-a4db-0b768aafd612"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(933),
                             ProductId = new Guid("a572cd2d-72e4-4e1a-b3cc-84121a9f7a4e"),
                             Title = "Bla bla bla!!!",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5167),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(933),
                             UserName = "XiaoChun",
                             evaluate = 4.0
                         },
                         new
                         {
-                            Id = new Guid("cb1ca027-9430-44a9-92bc-db22425f1ac6"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5169),
+                            Id = new Guid("ea082598-b200-45dd-ac8f-acc41a572fc6"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(935),
                             ProductId = new Guid("a572cd2d-72e4-4e1a-b3cc-84121a9f7a4e"),
                             Title = "Amazing good chop!!!",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5170),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(936),
                             UserName = "XiaoChun",
                             evaluate = 3.5
                         },
                         new
                         {
-                            Id = new Guid("7ecb894b-9102-496c-9dce-fc1354e76c70"),
-                            CreatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5172),
+                            Id = new Guid("ad4057c9-4e12-4f99-b40e-691b049a8d76"),
+                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(938),
                             ProductId = new Guid("a572cd2d-72e4-4e1a-b3cc-84121a9f7a4e"),
                             Title = "Ưng quá chừng!",
-                            UpdatedAt = new DateTime(2024, 2, 23, 8, 33, 1, 102, DateTimeKind.Local).AddTicks(5172),
+                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(939),
                             UserName = "XiaoChun",
                             evaluate = 4.5
                         });
@@ -897,7 +897,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("83fa8fa1-e1ca-493d-8862-bd15271b4323"),
+                            Id = new Guid("75b84ea2-0218-4f4e-bf20-3d4659a3937d"),
                             Author = "xiao Chun",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn NextJs từ Zero to hero",
@@ -911,7 +911,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("bd1ee76b-1a21-4582-861e-06603c1efd3d"),
+                            Id = new Guid("b0554849-8c3a-4c23-8e54-7e8b5ed05c1d"),
                             Author = "xiao Chun zz",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn C++ từ Zero to hero",
@@ -925,7 +925,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("fb6ce49d-a434-46af-a468-f333d6003657"),
+                            Id = new Guid("41daee72-fd5b-4af0-b744-44a174c68b45"),
                             Author = "xiao Chun zzz",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Ruby từ Zero to hero",
@@ -939,7 +939,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("e53672b7-564c-40a7-ba3f-50f9222be0bc"),
+                            Id = new Guid("693bfb4f-8abf-47f0-8f85-21670282cc46"),
                             Author = "xiao Chun zzz",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn C# từ Zero to hero",
@@ -953,7 +953,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("9f98fdc7-8ba3-4c36-b400-58983234cf12"),
+                            Id = new Guid("dd19336c-d70d-48d2-9771-27f437575bda"),
                             Author = "xiao Chun zzzzz",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Java từ Zero to hero",
@@ -967,7 +967,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("5c484825-28ec-4e37-8f1a-e86900858e63"),
+                            Id = new Guid("26c539e6-053c-438c-8cdc-31b31370f260"),
                             Author = "xiao Chun zzzzz",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Python từ Zero to hero",
@@ -981,7 +981,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1de81735-0200-4e6d-8960-5801f56d767a"),
+                            Id = new Guid("268188ab-48e6-4ab0-af1e-660d4c5d591f"),
                             Author = "xiao Chun zz00",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Php từ Zero to hero",
@@ -995,7 +995,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("4871b584-d2eb-4785-aa02-a16cc14310d4"),
+                            Id = new Guid("31410821-8e87-49e5-a4bc-388704651a57"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Javascript từ Zero to hero",
@@ -1009,7 +1009,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("4d5e118c-d959-4c5b-97b7-8a6344cac178"),
+                            Id = new Guid("cd2b92b4-8506-4097-a14a-a21ba371b2e0"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn kinh doanh từ Zero to hero",
@@ -1023,7 +1023,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("79d78e2d-bda5-4e52-a2d1-ece210dde14d"),
+                            Id = new Guid("74b35a08-bf25-495a-9513-102a6e41eabc"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn bàn hàng từ Zero to hero",
@@ -1037,7 +1037,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("4e55e99c-8cf6-4858-8ac6-fdd66023dd8c"),
+                            Id = new Guid("b1e322b8-a14f-4eb6-9ada-3029b5c9f7db"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn bán rau từ Zero to hero",
@@ -1051,7 +1051,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("8c272086-e2f4-42b3-8733-d24664735863"),
+                            Id = new Guid("377fba46-5264-4161-867b-5ff39d57a623"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn bán nhà từ Zero to hero",
@@ -1065,7 +1065,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("afac7655-ea24-46a6-8c2e-f19c6e1453d6"),
+                            Id = new Guid("a69368fe-e107-47d4-82df-3efbefb0c838"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn đầu tư từ Zero to hero",
@@ -1079,7 +1079,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("26eccb51-85c5-4cc9-a05e-88a9cf9b3dcb"),
+                            Id = new Guid("fd9592fe-b4eb-479c-b935-107d92127fa2"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn tài xỉu từ Zero to hero",
@@ -1093,7 +1093,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1cd9b3c1-f0b1-4041-83f5-2a9f4bf4a3e1"),
+                            Id = new Guid("d75ec9af-792c-45a9-86a3-a3c16f368540"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn lùa gà từ Zero to hero",
@@ -1107,7 +1107,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("a4dd353b-9a4a-41de-9c9d-0d77dff1d9f9"),
+                            Id = new Guid("61bff8d9-3811-4127-9e02-299ae1cc6742"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn bán thịt lợn từ Zero to hero",
@@ -1121,7 +1121,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("d8307b15-80b8-4e74-b442-2c34323e87f6"),
+                            Id = new Guid("b21f8a41-e24e-412e-b413-1e647cc955b4"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn chứng khoán từ Zero to hero",
@@ -1135,7 +1135,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("a82985c0-f589-48cb-80cf-148a1448bc36"),
+                            Id = new Guid("8e5e54dc-5b43-49c7-ac5c-e411bd3fa88d"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm giàu 100%  từ Zero to hero",
@@ -1149,7 +1149,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("870c0511-7e14-4474-b4f9-853d775e75d9"),
+                            Id = new Guid("4db26548-9d38-4e1a-9d1f-51eaee3d1e92"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Javascript trong 3 tháng",
@@ -1163,7 +1163,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("f05044bc-df25-4f8b-9ded-ff4da69119f0"),
+                            Id = new Guid("d0095d82-8d22-4aa9-ac30-2ae6d28e0013"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Python trong 5 tháng",
@@ -1177,7 +1177,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("4c8a11d7-20f6-4d6b-8c65-6fa605922b01"),
+                            Id = new Guid("380ddf8e-5f09-476f-b94a-91db5b842871"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản PHP .",
@@ -1191,7 +1191,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("2910fad5-cdb6-419a-bd35-d0e16c9e6d05"),
+                            Id = new Guid("a8c52cbf-eef6-4aa4-a60b-103ffc965ec4"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản React .",
@@ -1205,7 +1205,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("8a99a8d4-6f1a-425b-9451-e3942b3f2f7e"),
+                            Id = new Guid("6c9caf41-38eb-481a-be9e-18e45a79978b"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản NextJS .",
@@ -1219,7 +1219,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("e8cd75fe-bcf4-405f-bb6d-08a027924864"),
+                            Id = new Guid("cdd19e28-3926-49d2-ab08-fd0985554844"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Dotnet .",
@@ -1233,7 +1233,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("aa9c4e40-e075-4645-8e6a-19fd4cf03402"),
+                            Id = new Guid("0681c054-9a2e-4b53-885e-02b0d2e12c80"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản C# .",
@@ -1247,7 +1247,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("dd7e5ad4-1de8-4c22-858a-79aefadf1921"),
+                            Id = new Guid("252a632a-85b7-4a17-b808-731319881581"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Ruby .",
@@ -1261,7 +1261,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("093b192c-192b-44cc-b0d1-3538410c4db3"),
+                            Id = new Guid("e60a6f45-085c-4384-96de-89bb483c341f"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản CSS .",
@@ -1275,7 +1275,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("7de0f70d-78bc-47c2-8a53-5110ad851ab7"),
+                            Id = new Guid("745fd0b5-7b61-445f-b2a0-0a287360c682"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản JQUERY .",
@@ -1289,7 +1289,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("6ae0ae8b-bf8c-47cf-ac79-f1db668ad4d6"),
+                            Id = new Guid("0771e90b-ab56-4b5d-8b53-6a57ad2ab03a"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản NOSQL .",
@@ -1303,7 +1303,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("da47bf62-3093-4390-b48a-49a41b34dec9"),
+                            Id = new Guid("dcc22d51-28bb-44aa-a4bf-404861802354"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản SQL .",
@@ -1317,7 +1317,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("596f62b8-4d77-4157-8032-250681cd4210"),
+                            Id = new Guid("992ab9f3-bbc5-46ac-b0a4-ab2ccc55d0d0"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Firebase .",
@@ -1331,7 +1331,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("43f03212-1f52-434d-96da-e482ce58a7c4"),
+                            Id = new Guid("b90a8cb9-d786-4cf3-a046-d073d2bc2be0"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản MongoDB .",
@@ -1345,7 +1345,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("170b893c-c67e-4421-9d4c-907207b00e37"),
+                            Id = new Guid("efdf151f-cdca-4d65-848c-2442187970aa"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản ASP .",
@@ -1359,7 +1359,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("d8895771-d215-4e4d-8a50-f81cf4785595"),
+                            Id = new Guid("ec812e73-95ab-479e-8344-4abb9f9d8fc9"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản C++ .",
@@ -1373,7 +1373,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("dba7dc7c-5511-4262-9edc-2615ea509951"),
+                            Id = new Guid("46768801-833d-4c61-a73d-0310d86fda13"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Objective .",
@@ -1387,7 +1387,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("edba1aff-f813-4106-a018-74d53bdff984"),
+                            Id = new Guid("1faa370c-32b8-4fb6-accc-bc694177a841"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Shell Scripting  .",
@@ -1401,7 +1401,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("91f65392-1d40-4b26-9faf-351a7c0f74d0"),
+                            Id = new Guid("19e2f438-5dd2-460d-a241-b4f971785d46"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Rust .",
@@ -1415,7 +1415,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("8343004f-d65d-453a-8e71-e1ea8eb4cce8"),
+                            Id = new Guid("05aaf209-4aaf-45b4-8eec-6bc818df6b8e"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Go  .",
@@ -1429,7 +1429,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("5c3b1587-003b-41fa-90b9-184899217ee2"),
+                            Id = new Guid("4d9ca3a0-95f3-49ff-81b6-67b7a85b78b3"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Đa dạng hóa .",
@@ -1443,7 +1443,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("f4c1d72e-0d71-4dab-9939-ccc3ffcca3d6"),
+                            Id = new Guid("b1080006-6fb5-46ce-b3ab-ac6159f39ad6"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Đổi mới .",
@@ -1457,7 +1457,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("6c198a29-3d02-4465-b50c-3e94167c2791"),
+                            Id = new Guid("c70d57ed-3dae-4c50-851d-a56833fe873f"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Toàn cầu hóa .",
@@ -1471,7 +1471,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("738fcf60-567a-4163-a498-cc686732db43"),
+                            Id = new Guid("7fe967cf-92ef-485f-bb6e-ad80bda808a0"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Dẫn đầu về Chi phí .",
@@ -1485,7 +1485,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("dfc2f685-bf87-4846-95d2-5f70f0682c52"),
+                            Id = new Guid("077cdd6a-efc8-420a-8d94-97d68a6b285f"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Tập trung vào Khách hàng .",
@@ -1499,7 +1499,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("808da0e7-17f2-408d-a70f-d2be20b07792"),
+                            Id = new Guid("fb02adfd-cd8f-481e-98ab-9fa55e5d7edd"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Phát triển Thị trường .",
@@ -1513,7 +1513,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b9fd1e27-7077-4730-b67b-6bc2bd247159"),
+                            Id = new Guid("bae270f0-016c-48a1-bf0f-43816c4739fd"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Hợp nhất Ngang hàng.",
@@ -1527,7 +1527,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1f5241da-9d76-4ccf-a0d5-17f472fde70b"),
+                            Id = new Guid("b875f669-8a6c-442b-a6ad-468d897186a1"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Hợp nhất Ngược dọc .",
@@ -1541,7 +1541,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("af2b8931-0a3e-49bb-9dcc-7dcd1f7726b0"),
+                            Id = new Guid("f4b0b8c0-6387-48ee-a195-d14cc59e901e"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Phát triển Sản phẩm .",
@@ -1555,7 +1555,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("e18f80a6-f943-469c-8c90-ed81d1ae518a"),
+                            Id = new Guid("b6d3581e-f301-4660-af2c-b1612a811ed7"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Rủi ro .",
@@ -1569,7 +1569,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b18d9e96-b54f-409c-af2a-bcb80e4e9220"),
+                            Id = new Guid("c912b2d1-1953-4ccc-b3aa-5743f5318b9f"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quyết định Lựa chọn Thức Ăn",
@@ -1583,7 +1583,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("f9b04ff0-e616-4973-beef-39a40363be00"),
+                            Id = new Guid("745b26fc-3956-40ef-89e6-f307323f25fb"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Tập Luyện .",
@@ -1597,7 +1597,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("a0321d7a-71f5-48f9-8a24-e8be66a95315"),
+                            Id = new Guid("461bc7a5-026c-4f17-ab1a-bf91672c8bd5"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Stress .",
@@ -1611,7 +1611,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("2b9fbb2f-8ace-4a12-b48f-d24965300def"),
+                            Id = new Guid("7bf227c8-0055-44d0-9416-bf781492b6eb"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Ngủ đủ giấc .",
@@ -1625,7 +1625,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1af22b8b-b400-437f-b810-bfeb4a4e14fb"),
+                            Id = new Guid("8a63bfc1-3aa1-418b-810d-0a257b8f8145"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Trọng lượng .",
@@ -1639,7 +1639,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("ca0e1f9a-7d36-428c-a663-738bd916103b"),
+                            Id = new Guid("408d3e90-f17c-49bc-a929-a9739cc397c1"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Thời gian .",
@@ -1653,7 +1653,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("9acd061b-b29e-4e2a-a213-028aa24d1746"),
+                            Id = new Guid("18cd27a7-1572-46bb-8fc4-07c924d3781b"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Emotions .",
@@ -1667,7 +1667,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("88aec0a6-df28-4550-bce7-091263ef3ad3"),
+                            Id = new Guid("4be971f5-ff27-4adb-b876-e95863d8126a"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Tình thần và Tâm lý .",
@@ -1681,7 +1681,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("279278a0-2691-484c-9e86-3453580e8cb3"),
+                            Id = new Guid("fa010360-8ef0-4653-bf38-081a3d3787e2"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Năng lượng .",
@@ -1695,7 +1695,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("a8f846de-4d0e-45f8-aed1-8c8dd1ec39c3"),
+                            Id = new Guid("6f5355e5-01fd-46c5-929c-3690e9fec424"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Đau .",
@@ -1709,7 +1709,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("320c19ce-fe1e-48b4-9719-d851281f8e94"),
+                            Id = new Guid("57898d59-274e-41d2-b862-370cb7c84395"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Áp lực Công việc .",
@@ -1723,7 +1723,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("4933cbee-4c27-4998-a894-66c4d1e84200"),
+                            Id = new Guid("9211e6f4-f390-4fd7-998e-ec2ed863b65f"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Tiêu hóa .",
@@ -1737,7 +1737,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("f9a0157b-eea1-4177-a573-3e4cb786dc9c"),
+                            Id = new Guid("835fbab3-c491-4981-89ab-e0df0164bbeb"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Thói quen Uống Nước .",
@@ -1751,7 +1751,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("bfc09598-618c-474d-a8e4-d14192e01341"),
+                            Id = new Guid("42dc5878-eb83-4502-814f-ff23cbf58dbf"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Mức độ Caffeine .",
@@ -1765,7 +1765,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("cfa8351b-4f3a-4226-bf57-79ef31bec6af"),
+                            Id = new Guid("858c7553-c2af-4eaa-962d-83b9125b9b6f"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Mức độ Đường huyết .",
@@ -1779,7 +1779,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("190d9719-ff4d-4a63-8129-07d05097a151"),
+                            Id = new Guid("4136cf59-fea2-4df5-9c5e-2b13fe692c46"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Thức ăn Nhanh .",
@@ -1793,7 +1793,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("0f23df72-47d2-4bca-a6c2-6be6d1e3b386"),
+                            Id = new Guid("ce6c8831-4352-4b92-b030-2d87df4dc397"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Tư duy Tích cực .",
@@ -1807,7 +1807,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("150864a4-1f11-46cd-bde2-6afeb586b7a0"),
+                            Id = new Guid("3bf7e9a9-f564-40ec-adda-5b833997e451"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Tìm hiểu Về Sức Khỏe .",
@@ -1821,7 +1821,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("f2b20cdc-37a8-4888-ad5b-f7339ac6dc3f"),
+                            Id = new Guid("3e577a40-b9c3-404f-9b85-7d44c4200d20"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Mức độ Dầu ăn .",
@@ -1835,7 +1835,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("18516b17-729a-4397-855a-fdf2af7ca838"),
+                            Id = new Guid("610a8165-a1b1-4844-8d82-267ff1903fe3"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Mối quan hệ Xã hội .",
@@ -1882,7 +1882,7 @@ namespace myApi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("d3ef390e-bb4a-45dc-b58b-73bee1283c96"),
+                            Id = new Guid("823af859-77b2-4604-9811-48871b73cc86"),
                             Email = "tn01@gmail.com",
                             Money = 10000000,
                             Password = "1232003",
@@ -1892,7 +1892,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("045a826d-c46f-48fa-8e98-c98dc14c5020"),
+                            Id = new Guid("ad5ddeed-0ed5-4ea1-9a41-ca17321824eb"),
                             Email = "tn02@gmail.com",
                             Money = 10000000,
                             Password = "1232003",

@@ -7,12 +7,10 @@ namespace myApi.Services
     public class UserService : IUserService
     {
         private readonly IUserRepository userRepository;
-
         public UserService(IUserRepository userRepository)
         {
             this.userRepository = userRepository;
         }
-
         public async Task<JwtUser?> Login(UserLogin userLogin) => await userRepository.Login(userLogin);
         public async Task<JwtUser?> Refresh_Token(string token) => await userRepository.Refresh_Token(token);
         public async Task<User?> Register(UserRegister userRegister)

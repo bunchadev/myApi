@@ -1,8 +1,9 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using myApi.Data;
 using myApi.Middlewares;
+using myApi.Models.Domain;
 using myApi.Repositories;
 using myApi.Services;
 
@@ -23,10 +24,20 @@ builder.Services.AddAuthentication(options =>
 });
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IUserProductRepository, UserProductRepository>();
+builder.Services.AddScoped<IUserCartRepository, UserCartRepository>();
+builder.Services.AddScoped<ILessonContentRepository, LessonContentRepository>();
+builder.Services.AddScoped<IVideoRepository, VideoRepository>();
 builder.Services.AddCors(options =>
 {
-    options.DefaultPolicyName = "AllowAll";
-    options.AddPolicy("AllowAll", _ => { });
+    options.AddPolicy("myApi",
+                          policy =>
+                          {
+                              policy.WithOrigins("http://localhost:3000")
+                                                  .AllowAnyHeader()
+                                                  .AllowAnyMethod();
+                          });
 });
 var app = builder.Build();
 // Configure the HTTP request pipeline.
@@ -36,6 +47,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseMiddleware<ExceptionHandlerMiddleware>();
+app.UseRouting();
+app.UseCors("myApi");
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

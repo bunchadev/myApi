@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Models",
+    "\\Models\\Domain"
+  ],
+  "SelectedNode": "\\Models\\Domain\\Comment.cs",
+  "PreviewInSolutionExplorer": false
+}

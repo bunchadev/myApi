@@ -1,4 +1,3 @@
-
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -56,13 +55,13 @@ namespace myApi.Repositories
                             };
                     var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"] ?? ""));
                     var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-                    var access_token = new JwtSecurityToken( //kiêm tra quyen truy cap của api
+                    var access_token = new JwtSecurityToken(
                         configuration["Jwt:Issuer"],
                         configuration["Jwt:Audience"],
                         claims,
                         expires: DateTime.Now.AddHours(1),
                         signingCredentials: credentials);
-                    var refresh_token = new JwtSecurityToken( //kiêm tra quyen truy cap của api va xac thuc nguoi dung
+                    var refresh_token = new JwtSecurityToken(
                         configuration["Jwt:Issuer"],
                         configuration["Jwt:Audience"],
                         claims,
