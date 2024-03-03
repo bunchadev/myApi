@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using myApi.Data;
 using myApi.Middlewares;
-using myApi.Models.Domain;
 using myApi.Repositories;
 using myApi.Services;
 
@@ -29,6 +28,7 @@ builder.Services.AddScoped<IUserProductRepository, UserProductRepository>();
 builder.Services.AddScoped<IUserCartRepository, UserCartRepository>();
 builder.Services.AddScoped<ILessonContentRepository, LessonContentRepository>();
 builder.Services.AddScoped<IVideoRepository, VideoRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("myApi",

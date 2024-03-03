@@ -55,141 +55,141 @@ namespace myApi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("897851d6-17cf-4565-9238-39df42069fd1"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(887),
+                            Id = new Guid("03653cd4-b4b9-40b4-a497-d537f34275a5"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3636),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Qúa hay và bổ ích",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(899),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3647),
                             UserName = "XiaoChun",
                             evaluate = 4.5
                         },
                         new
                         {
-                            Id = new Guid("222c83ed-8cad-43c2-8989-e3a411559823"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(902),
+                            Id = new Guid("f094e69b-55f1-4c0b-a6a1-129047e2412f"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3650),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Tôi đã ra khi học khóa này!",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(903),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3650),
                             UserName = "CamTu",
                             evaluate = 4.0
                         },
                         new
                         {
-                            Id = new Guid("f576533c-2916-4413-b07a-d801c326c912"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(905),
+                            Id = new Guid("90711a28-4d52-4e0b-9e7a-1f7bbee54df7"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3652),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Cần cập nhật thêm 1 số kiến thức",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(905),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3653),
                             UserName = "LienNguyen",
                             evaluate = 3.5
                         },
                         new
                         {
-                            Id = new Guid("89681459-1f2d-4450-a768-e4cb8f0583b6"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(908),
+                            Id = new Guid("1993cd0e-a211-4bdd-949a-4b611e6d0a60"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3655),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Khóa học không phù hợp với tôi",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(908),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3656),
                             UserName = "TraMy",
                             evaluate = 3.0
                         },
                         new
                         {
-                            Id = new Guid("1edb48ad-5bf4-4c98-87a4-83494cebef60"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(910),
+                            Id = new Guid("39e8c3b0-5c46-4579-be23-ec15698dab85"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3658),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Quá là hay luôn",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(911),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3658),
                             UserName = "TrungNguyen",
                             evaluate = 4.5
                         },
                         new
                         {
-                            Id = new Guid("9a1d4100-b3a7-4e43-8cdc-a94cc3e8d829"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(914),
+                            Id = new Guid("a77b33f8-8d22-4884-a157-a1776e97265c"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3661),
                             ProductId = new Guid("1f1ee017-6d3a-46f8-839a-3b41330fbf17"),
                             Title = "Như cc!!!",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(914),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3662),
                             UserName = "TrungNguyen",
                             evaluate = 2.5
                         },
                         new
                         {
-                            Id = new Guid("1e623900-b20f-4d2f-8285-0a8e887d1f23"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(917),
+                            Id = new Guid("094cc70b-af8b-4845-af7d-2c4f298cb66c"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3666),
                             ProductId = new Guid("7a2f9e3b-8a15-4c0b-b784-693c0e20d8a9"),
                             Title = "Qúa là tuyệt vời",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(917),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3666),
                             UserName = "ThuongNguyen",
                             evaluate = 3.5
                         },
                         new
                         {
-                            Id = new Guid("321e76de-5c8e-4413-8eb5-a61771413e99"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(921),
+                            Id = new Guid("6a319486-ad53-45be-bd20-ac0aaf3ee943"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3669),
                             ProductId = new Guid("7a2f9e3b-8a15-4c0b-b784-693c0e20d8a9"),
                             Title = "Hay tôi đã học được nhiều thứ từ khóa học này",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(921),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3669),
                             UserName = "HoangGiang",
                             evaluate = 4.0
                         },
                         new
                         {
-                            Id = new Guid("0858976a-24d1-415d-b59c-e34466ca87c3"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(924),
+                            Id = new Guid("473d14b0-e442-48b6-93e5-aa5707685c59"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3671),
                             ProductId = new Guid("7a2f9e3b-8a15-4c0b-b784-693c0e20d8a9"),
                             Title = "Cần bổ xung thêm nhiều kiến thức hơn",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(924),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3672),
                             UserName = "XiaoChun",
                             evaluate = 4.5
                         },
                         new
                         {
-                            Id = new Guid("35950927-c332-45d8-aa64-72fdccbb2443"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(927),
+                            Id = new Guid("b11c8816-9c62-40ee-a6ef-6a2f02aa28d6"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3675),
                             ProductId = new Guid("7a2f9e3b-8a15-4c0b-b784-693c0e20d8a9"),
                             Title = "Hay vl!!!",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(928),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3675),
                             UserName = "XiaoChun",
                             evaluate = 4.0
                         },
                         new
                         {
-                            Id = new Guid("4db2131e-dabd-4373-8704-23d59c2c9ec0"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(930),
+                            Id = new Guid("c4449c8f-8499-4712-b0cb-3111887f308b"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3677),
                             ProductId = new Guid("a572cd2d-72e4-4e1a-b3cc-84121a9f7a4e"),
                             Title = "Qúa tệ!!!",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(930),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3678),
                             UserName = "XiaoChun",
                             evaluate = 2.5
                         },
                         new
                         {
-                            Id = new Guid("711d1288-4bab-459e-a4db-0b768aafd612"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(933),
+                            Id = new Guid("f033b808-c4da-44d8-8d9b-defe64bc0b71"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3680),
                             ProductId = new Guid("a572cd2d-72e4-4e1a-b3cc-84121a9f7a4e"),
                             Title = "Bla bla bla!!!",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(933),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3681),
                             UserName = "XiaoChun",
                             evaluate = 4.0
                         },
                         new
                         {
-                            Id = new Guid("ea082598-b200-45dd-ac8f-acc41a572fc6"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(935),
+                            Id = new Guid("64aeb8f9-94aa-4dae-b506-8152a6ddebdd"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3683),
                             ProductId = new Guid("a572cd2d-72e4-4e1a-b3cc-84121a9f7a4e"),
                             Title = "Amazing good chop!!!",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(936),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3683),
                             UserName = "XiaoChun",
                             evaluate = 3.5
                         },
                         new
                         {
-                            Id = new Guid("ad4057c9-4e12-4f99-b40e-691b049a8d76"),
-                            CreatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(938),
+                            Id = new Guid("ab29b537-67d5-4dfd-9de1-025fdb67929a"),
+                            CreatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3686),
                             ProductId = new Guid("a572cd2d-72e4-4e1a-b3cc-84121a9f7a4e"),
                             Title = "Ưng quá chừng!",
-                            UpdatedAt = new DateTime(2024, 3, 3, 2, 48, 19, 716, DateTimeKind.Local).AddTicks(939),
+                            UpdatedAt = new DateTime(2024, 3, 4, 3, 17, 27, 483, DateTimeKind.Local).AddTicks(3686),
                             UserName = "XiaoChun",
                             evaluate = 4.5
                         });
@@ -894,12 +894,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("75b84ea2-0218-4f4e-bf20-3d4659a3937d"),
+                            Id = new Guid("ec16787e-f650-4a7e-839e-f034b52f9273"),
                             Author = "xiao Chun",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn NextJs từ Zero to hero",
                             Evaluate = 4.5,
                             FileName = "nextjs.jpg",
+                            NameTitle = "NextJs",
                             NumberStudents = 77777,
                             Price = 304000,
                             ProductName = "NextJs Pro Max !!!",
@@ -908,12 +909,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b0554849-8c3a-4c23-8e54-7e8b5ed05c1d"),
+                            Id = new Guid("b8b19bdc-d9e6-4d1a-a25d-7c528f47db69"),
                             Author = "xiao Chun zz",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn C++ từ Zero to hero",
                             Evaluate = 4.5,
                             FileName = "c++.png",
+                            NameTitle = "C++",
                             NumberStudents = 88888,
                             Price = 279000,
                             ProductName = "C++ ProMax !!!",
@@ -922,12 +924,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("41daee72-fd5b-4af0-b744-44a174c68b45"),
+                            Id = new Guid("a742f0bd-6f85-4e50-9bc3-8b77b3061c77"),
                             Author = "xiao Chun zzz",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Ruby từ Zero to hero",
                             Evaluate = 4.5,
                             FileName = "ruby.png",
+                            NameTitle = "Ruby on rails",
                             NumberStudents = 99999,
                             Price = 389000,
                             ProductName = "Ruby ProMax !!!",
@@ -936,12 +939,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("693bfb4f-8abf-47f0-8f85-21670282cc46"),
+                            Id = new Guid("e917a7f8-8a12-4df7-bd32-904b2e53b6fa"),
                             Author = "xiao Chun zzz",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn C# từ Zero to hero",
                             Evaluate = 4.0,
                             FileName = "csharp.jpg",
+                            NameTitle = "C#",
                             NumberStudents = 99999,
                             Price = 389000,
                             ProductName = "C# ProMax !!!",
@@ -950,12 +954,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("dd19336c-d70d-48d2-9771-27f437575bda"),
+                            Id = new Guid("3d6cb16e-88a2-4b31-bb5e-9af611155a19"),
                             Author = "xiao Chun zzzzz",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Java từ Zero to hero",
                             Evaluate = 4.5,
                             FileName = "java.jpg",
+                            NameTitle = "Java with SpringBoot",
                             NumberStudents = 31567,
                             Price = 390000,
                             ProductName = "Java ProMax !!!",
@@ -964,12 +969,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("26c539e6-053c-438c-8cdc-31b31370f260"),
+                            Id = new Guid("f518b97c-ec7d-4d75-bc25-6cb0fd3be1ad"),
                             Author = "xiao Chun zzzzz",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Python từ Zero to hero",
                             Evaluate = 4.5,
                             FileName = "py.jpg",
+                            NameTitle = "Python",
                             NumberStudents = 31567,
                             Price = 390000,
                             ProductName = "Python ProMax !!!",
@@ -978,12 +984,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("268188ab-48e6-4ab0-af1e-660d4c5d591f"),
+                            Id = new Guid("8d37624a-5c52-4824-a946-8a09d1e2be87"),
                             Author = "xiao Chun zz00",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Php từ Zero to hero",
                             Evaluate = 4.0,
                             FileName = "php.jpg",
+                            NameTitle = "Php",
                             NumberStudents = 81278,
                             Price = 394000,
                             ProductName = "Php ProMax !!!",
@@ -992,12 +999,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("31410821-8e87-49e5-a4bc-388704651a57"),
+                            Id = new Guid("0e3347d1-8655-4b59-aa65-f80e4f7b2f81"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Javascript từ Zero to hero",
                             Evaluate = 3.5,
                             FileName = "jss.jpg",
+                            NameTitle = "Javascript",
                             NumberStudents = 81278,
                             Price = 394000,
                             ProductName = "Javascript ProMax !!!",
@@ -1006,12 +1014,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("cd2b92b4-8506-4097-a14a-a21ba371b2e0"),
+                            Id = new Guid("cf3e3462-4c7c-4ef5-b88a-7d8d464ac8f5"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn kinh doanh từ Zero to hero",
                             Evaluate = 3.5,
                             FileName = "chien.jpg",
+                            NameTitle = "Kinh doanh",
                             NumberStudents = 53455,
                             Price = 327000,
                             ProductName = "Chiến lược kinh doanh",
@@ -1020,12 +1029,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("74b35a08-bf25-495a-9513-102a6e41eabc"),
+                            Id = new Guid("a2d5a4a6-22ff-4f9d-ae68-3988fa5b4e0e"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn bàn hàng từ Zero to hero",
                             Evaluate = 3.5,
                             FileName = "Chien-luoc-ban-hang.png",
+                            NameTitle = "Bán hàng",
                             NumberStudents = 37853,
                             Price = 727000,
                             ProductName = "Chiến lược bán hàng",
@@ -1034,12 +1044,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b1e322b8-a14f-4eb6-9ada-3029b5c9f7db"),
+                            Id = new Guid("53545cdd-3ff9-4009-8b3c-d104a11d38b6"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn bán rau từ Zero to hero",
                             Evaluate = 3.5,
                             FileName = "rau.jpg",
+                            NameTitle = "Bán rau",
                             NumberStudents = 33723,
                             Price = 162000,
                             ProductName = "Chiến lược bán rau",
@@ -1048,12 +1059,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("377fba46-5264-4161-867b-5ff39d57a623"),
+                            Id = new Guid("09267b98-d53a-419b-b748-569d88ffdba3"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn bán nhà từ Zero to hero",
                             Evaluate = 3.5,
                             FileName = "nha.webp",
+                            NameTitle = "Bán nhà",
                             NumberStudents = 46723,
                             Price = 198000,
                             ProductName = "Chiến lược bán nhà",
@@ -1062,12 +1074,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("a69368fe-e107-47d4-82df-3efbefb0c838"),
+                            Id = new Guid("09f5f0b4-e3c7-43d6-a292-842d182f95a0"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn đầu tư từ Zero to hero",
                             Evaluate = 4.0,
                             FileName = "dautu.png",
+                            NameTitle = "Đầu tư",
                             NumberStudents = 42647,
                             Price = 847000,
                             ProductName = "Chiến lược đầu tư",
@@ -1076,12 +1089,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("fd9592fe-b4eb-479c-b935-107d92127fa2"),
+                            Id = new Guid("7cb4660d-1054-468c-8442-ebadb3cae1f8"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn tài xỉu từ Zero to hero",
                             Evaluate = 5.0,
                             FileName = "taixiu.png",
+                            NameTitle = "Tài xỉu",
                             NumberStudents = 534634,
                             Price = 102000,
                             ProductName = "Chiến lược chơi tài xỉu",
@@ -1090,12 +1104,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("d75ec9af-792c-45a9-86a3-a3c16f368540"),
+                            Id = new Guid("ecc287fd-d405-4e23-bba3-4916ec37e132"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn lùa gà từ Zero to hero",
                             Evaluate = 5.0,
                             FileName = "luaga.jpg",
+                            NameTitle = "Lùa gà",
                             NumberStudents = 698444,
                             Price = 249999,
                             ProductName = "Chiến lược lùa gà",
@@ -1104,12 +1119,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("61bff8d9-3811-4127-9e02-299ae1cc6742"),
+                            Id = new Guid("94deb579-cc56-479c-ba5d-7eb3f45086a3"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn bán thịt lợn từ Zero to hero",
                             Evaluate = 4.0,
                             FileName = "thitlon.jpg",
+                            NameTitle = "Bán thịt lợn",
                             NumberStudents = 1723,
                             Price = 199000,
                             ProductName = "Chiến lược bán thịt lợn",
@@ -1118,12 +1134,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b21f8a41-e24e-412e-b413-1e647cc955b4"),
+                            Id = new Guid("bdb0dc44-2912-4bb3-879c-34845c5d590f"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn chứng khoán từ Zero to hero",
                             Evaluate = 4.0,
                             FileName = "ck.jpg",
+                            NameTitle = "Chứng khoán",
                             NumberStudents = 278527,
                             Price = 277000,
                             ProductName = "Chiến lược chứng khoán",
@@ -1132,12 +1149,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("8e5e54dc-5b43-49c7-ac5c-e411bd3fa88d"),
+                            Id = new Guid("2eddc1c0-4d45-4546-8297-02f8a11e0737"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm giàu 100%  từ Zero to hero",
                             Evaluate = 4.0,
                             FileName = "giau.jpg",
+                            NameTitle = "Làm giàu",
                             NumberStudents = 23723,
                             Price = 399000,
                             ProductName = "Nhà làm giàu tài ba",
@@ -1146,12 +1164,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("4db26548-9d38-4e1a-9d1f-51eaee3d1e92"),
+                            Id = new Guid("7bf8e48c-ec53-4d21-8321-0577f424d1d8"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Javascript trong 3 tháng",
                             Evaluate = 3.5,
                             FileName = "jsss.png",
+                            NameTitle = "Javascript",
                             NumberStudents = 31231,
                             Price = 145000,
                             ProductName = "Javascript Basic !!!",
@@ -1160,12 +1179,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("d0095d82-8d22-4aa9-ac30-2ae6d28e0013"),
+                            Id = new Guid("8fb76189-6c0c-4b89-8ad0-26dca4c1aa2c"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Python trong 5 tháng",
                             Evaluate = 4.0,
                             FileName = "py.jpg",
+                            NameTitle = "Pyhton",
                             NumberStudents = 51241,
                             Price = 222000,
                             ProductName = "Python Basic !!!",
@@ -1174,12 +1194,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("380ddf8e-5f09-476f-b94a-91db5b842871"),
+                            Id = new Guid("6e2a3b0e-6467-4ef0-a07c-914f3c0e6c1d"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản PHP .",
                             Evaluate = 4.0,
                             FileName = "php.jpg",
+                            NameTitle = "Php",
                             NumberStudents = 63352,
                             Price = 213000,
                             ProductName = "PHP Basic !!!",
@@ -1188,12 +1209,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("a8c52cbf-eef6-4aa4-a60b-103ffc965ec4"),
+                            Id = new Guid("a1c7d314-6627-4a09-a8c3-3e16c44509ae"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản React .",
                             Evaluate = 4.5,
                             FileName = "reactjs.png",
+                            NameTitle = "ReactJs",
                             NumberStudents = 51412,
                             Price = 111000,
                             ProductName = "React Basic !!!",
@@ -1202,12 +1224,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("6c9caf41-38eb-481a-be9e-18e45a79978b"),
+                            Id = new Guid("b23d5b9f-8ef9-4e7d-8590-2d6079c52a1b"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản NextJS .",
                             Evaluate = 3.0,
                             FileName = "nextjs.jpg",
+                            NameTitle = "NextJs",
                             NumberStudents = 14144,
                             Price = 233000,
                             ProductName = "NextJS Basic !!!",
@@ -1216,12 +1239,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("cdd19e28-3926-49d2-ab08-fd0985554844"),
+                            Id = new Guid("ec4f7d5b-6312-4693-a146-f3bc58a4d126"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Dotnet .",
                             Evaluate = 3.5,
                             FileName = "dotnet.jpg",
+                            NameTitle = "Dotnet",
                             NumberStudents = 24146,
                             Price = 212000,
                             ProductName = "Dotnet Basic !!!",
@@ -1230,12 +1254,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("0681c054-9a2e-4b53-885e-02b0d2e12c80"),
+                            Id = new Guid("d63e51b8-1c7f-44e5-9a9d-0e54f9d9e7a5"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản C# .",
                             Evaluate = 4.0,
                             FileName = "csharp.jpg",
+                            NameTitle = "C#",
                             NumberStudents = 11511,
                             Price = 232000,
                             ProductName = "C# Basic !!!",
@@ -1244,12 +1269,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("252a632a-85b7-4a17-b808-731319881581"),
+                            Id = new Guid("f3c86f7b-d631-47b8-b3b2-02a4b4e165c4"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Ruby .",
                             Evaluate = 4.5,
                             FileName = "ruby.png",
+                            NameTitle = "Ruby on rails",
                             NumberStudents = 15121,
                             Price = 222000,
                             ProductName = "Ruby Basic !!!",
@@ -1258,12 +1284,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("e60a6f45-085c-4384-96de-89bb483c341f"),
+                            Id = new Guid("dcf4a40a-95a4-4e71-b899-92c3b3e5f632"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản CSS .",
                             Evaluate = 4.0,
                             FileName = "css.jpg",
+                            NameTitle = "CSS",
                             NumberStudents = 41511,
                             Price = 299000,
                             ProductName = "CSS Basic !!!",
@@ -1272,12 +1299,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("745fd0b5-7b61-445f-b2a0-0a287360c682"),
+                            Id = new Guid("4b5b6e7f-825c-4375-a79d-0d17d7f4a811"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản JQUERY .",
                             Evaluate = 4.0,
                             FileName = "jquery.webp",
+                            NameTitle = "JQUERY",
                             NumberStudents = 61611,
                             Price = 145000,
                             ProductName = "JQUERY Basic !!!",
@@ -1286,12 +1314,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("0771e90b-ab56-4b5d-8b53-6a57ad2ab03a"),
+                            Id = new Guid("8e59e0c4-ea7a-490e-a084-289dc3b03e0d"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản NOSQL .",
                             Evaluate = 4.5,
                             FileName = "nosql.png",
+                            NameTitle = "NOSQL",
                             NumberStudents = 51512,
                             Price = 300000,
                             ProductName = "NOSQL Basic !!!",
@@ -1300,12 +1329,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("dcc22d51-28bb-44aa-a4bf-404861802354"),
+                            Id = new Guid("b7891cb2-d35d-4790-8e54-f6fc90db20d6"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản SQL .",
                             Evaluate = 3.5,
                             FileName = "sql.webp",
+                            NameTitle = "SQL",
                             NumberStudents = 51221,
                             Price = 122000,
                             ProductName = "SQL Basic !!!",
@@ -1314,12 +1344,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("992ab9f3-bbc5-46ac-b0a4-ab2ccc55d0d0"),
+                            Id = new Guid("6f63b32a-4b7d-48ee-841b-0e1f826d82fb"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Firebase .",
                             Evaluate = 3.5,
                             FileName = "firebase.png",
+                            NameTitle = "FIREBASE",
                             NumberStudents = 51211,
                             Price = 255000,
                             ProductName = "Firebase Basic !!!",
@@ -1328,12 +1359,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b90a8cb9-d786-4cf3-a046-d073d2bc2be0"),
+                            Id = new Guid("ad59e2d4-f0e1-4dd6-aa9c-257fa0c25c35"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản MongoDB .",
                             Evaluate = 4.0,
                             FileName = "mongodb.png",
+                            NameTitle = "MONGODB",
                             NumberStudents = 85431,
                             Price = 100000,
                             ProductName = "MongoDB Basic !!!",
@@ -1342,12 +1374,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("efdf151f-cdca-4d65-848c-2442187970aa"),
+                            Id = new Guid("c356b040-0bf0-4b02-b882-4f40b3052f09"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản ASP .",
                             Evaluate = 3.5,
                             FileName = "aspnetcore.png",
+                            NameTitle = "ASP",
                             NumberStudents = 9542,
                             Price = 299000,
                             ProductName = "ASP Basic !!!",
@@ -1356,12 +1389,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("ec812e73-95ab-479e-8344-4abb9f9d8fc9"),
+                            Id = new Guid("ba8d07d2-2055-46d7-9d63-c13a208e76db"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản C++ .",
                             Evaluate = 4.0,
                             FileName = "c++.png",
+                            NameTitle = "C++",
                             NumberStudents = 61211,
                             Price = 234000,
                             ProductName = "C++ Basic !!!",
@@ -1370,12 +1404,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("46768801-833d-4c61-a73d-0310d86fda13"),
+                            Id = new Guid("f1bfc3d8-c3cf-4024-9edc-61d8003e520f"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Objective .",
                             Evaluate = 4.0,
                             FileName = "obC.png",
+                            NameTitle = "OBJECTIVE-C",
                             NumberStudents = 61212,
                             Price = 123000,
                             ProductName = "Objective-C Basic !!!",
@@ -1384,12 +1419,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1faa370c-32b8-4fb6-accc-bc694177a841"),
+                            Id = new Guid("9f26d522-805b-4a5f-aa02-8b3ab9d53e9e"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Shell Scripting  .",
                             Evaluate = 4.5,
                             FileName = "shell.jpg",
+                            NameTitle = "SHELL SCRIPTING",
                             NumberStudents = 61211,
                             Price = 277000,
                             ProductName = "Shell Scripting  Basic !!!",
@@ -1398,12 +1434,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("19e2f438-5dd2-460d-a241-b4f971785d46"),
+                            Id = new Guid("e7b2681a-8d71-458d-aa08-05c1c833f872"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Rust .",
                             Evaluate = 3.0,
                             FileName = "rust.jpg",
+                            NameTitle = "RUST",
                             NumberStudents = 14141,
                             Price = 231000,
                             ProductName = "Rust Basic !!!",
@@ -1412,12 +1449,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("05aaf209-4aaf-45b4-8eec-6bc818df6b8e"),
+                            Id = new Guid("5d138df3-f732-4d9e-8f90-674c070f6ed3"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cơ bản Go  .",
                             Evaluate = 4.0,
                             FileName = "go.jpg",
+                            NameTitle = "GO",
                             NumberStudents = 51211,
                             Price = 127000,
                             ProductName = "Go Basic !!!",
@@ -1426,12 +1464,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("4d9ca3a0-95f3-49ff-81b6-67b7a85b78b3"),
+                            Id = new Guid("1390ae16-70cd-4299-a7f9-243f362085db"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Đa dạng hóa .",
                             Evaluate = 3.0,
                             FileName = "dadang.jpg",
+                            NameTitle = "Đa dạng",
                             NumberStudents = 4311,
                             Price = 145000,
                             ProductName = "Chiến lược Đa dạng hóa .",
@@ -1440,12 +1479,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b1080006-6fb5-46ce-b3ab-ac6159f39ad6"),
+                            Id = new Guid("6f84e8c6-c1b9-4c16-884a-b38acfc33b44"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Đổi mới .",
                             Evaluate = 3.0,
                             FileName = "doimoi.jpg",
+                            NameTitle = "Đổi mới",
                             NumberStudents = 3111,
                             Price = 256000,
                             ProductName = "Chiến lược Đổi mới.",
@@ -1454,12 +1494,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("c70d57ed-3dae-4c50-851d-a56833fe873f"),
+                            Id = new Guid("b4ab814c-3b5e-4700-8011-2bac446bef10"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Toàn cầu hóa .",
                             Evaluate = 4.5,
                             FileName = "toan-cau.jpg",
+                            NameTitle = "Toàn cầu",
                             NumberStudents = 4155,
                             Price = 238000,
                             ProductName = "Chiến lược Toàn cầu hóa.",
@@ -1468,12 +1509,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("7fe967cf-92ef-485f-bb6e-ad80bda808a0"),
+                            Id = new Guid("08516fd4-4c50-4c28-b1a8-ec6b043fd53e"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Dẫn đầu về Chi phí .",
                             Evaluate = 3.5,
                             FileName = "toan-cau.jpg",
+                            NameTitle = "Dẫn đầu",
                             NumberStudents = 4567,
                             Price = 213000,
                             ProductName = "Chiến lược Dẫn đầu về Chi phí .",
@@ -1482,12 +1524,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("077cdd6a-efc8-420a-8d94-97d68a6b285f"),
+                            Id = new Guid("6dd2bbc1-6e11-4473-9162-e11e4b1c95f0"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Tập trung vào Khách hàng .",
                             Evaluate = 3.0,
                             FileName = "kh.png",
+                            NameTitle = "Khách hàng",
                             NumberStudents = 3112,
                             Price = 222000,
                             ProductName = "Chiến lược Tập trung vào Khách hàng .",
@@ -1496,12 +1539,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("fb02adfd-cd8f-481e-98ab-9fa55e5d7edd"),
+                            Id = new Guid("5898860e-04ac-4c69-bbc7-8b5571276527"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Phát triển Thị trường .",
                             Evaluate = 4.0,
                             FileName = "thitruong.jpg",
+                            NameTitle = "Thị trường",
                             NumberStudents = 5432,
                             Price = 231000,
                             ProductName = "Chiến lược Phát triển Thị trường .",
@@ -1510,12 +1554,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("bae270f0-016c-48a1-bf0f-43816c4739fd"),
+                            Id = new Guid("144e10e0-2d65-40c0-ad52-b7500c21dc84"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Hợp nhất Ngang hàng.",
                             Evaluate = 3.5,
                             FileName = "chi.jpg",
+                            NameTitle = "Hợp nhất",
                             NumberStudents = 1515,
                             Price = 123000,
                             ProductName = "Chiến lược Hợp nhất Ngang hàng.",
@@ -1524,12 +1569,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b875f669-8a6c-442b-a6ad-468d897186a1"),
+                            Id = new Guid("841473c7-ad98-4cb9-b0c1-745a10b72e1f"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Hợp nhất Ngược dọc .",
                             Evaluate = 4.5,
                             FileName = "chi.jpg",
+                            NameTitle = "Hợp nhất",
                             NumberStudents = 7161,
                             Price = 189000,
                             ProductName = "Chiến lược Hợp nhất Ngược dọc.",
@@ -1538,12 +1584,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("f4b0b8c0-6387-48ee-a195-d14cc59e901e"),
+                            Id = new Guid("b9151fe4-eb19-46b7-ac8c-75d3161d4825"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Phát triển Sản phẩm .",
                             Evaluate = 4.5,
                             FileName = "sp.jpg",
+                            NameTitle = "PT Sản phẩm",
                             NumberStudents = 1516,
                             Price = 167000,
                             ProductName = "Chiến lược Phát triển Sản phẩm .",
@@ -1552,12 +1599,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b6d3581e-f301-4660-af2c-b1612a811ed7"),
+                            Id = new Guid("2ec03d34-725b-412d-af4f-c1d17dac4ce7"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Rủi ro .",
                             Evaluate = 4.5,
                             FileName = "rr.jpg",
+                            NameTitle = "Rủi ro",
                             NumberStudents = 6153,
                             Price = 298000,
                             ProductName = "Chiến lược Quản lý Rủi ro . ",
@@ -1566,12 +1614,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("c912b2d1-1953-4ccc-b3aa-5743f5318b9f"),
+                            Id = new Guid("e3a09445-d486-4351-95d6-26b39b56fe1d"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quyết định Lựa chọn Thức Ăn",
                             Evaluate = 4.5,
                             FileName = "thucan.jpg",
+                            NameTitle = "Thức ăn",
                             NumberStudents = 1516,
                             Price = 123000,
                             ProductName = "Kỹ năng Quyết định Lựa chọn Thức Ăn",
@@ -1580,12 +1629,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("745b26fc-3956-40ef-89e6-f307323f25fb"),
+                            Id = new Guid("3476a058-e48b-4d4c-86f9-8af2b26c588a"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Tập Luyện .",
                             Evaluate = 4.5,
                             FileName = "tapluyen.jpg",
+                            NameTitle = "Tập luyện",
                             NumberStudents = 5151,
                             Price = 222000,
                             ProductName = "Kỹ năng Tập Luyện .",
@@ -1594,12 +1644,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("461bc7a5-026c-4f17-ab1a-bf91672c8bd5"),
+                            Id = new Guid("36171157-56ca-400a-9057-a911280e1099"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Stress .",
                             Evaluate = 4.0,
                             FileName = "stress.webp",
+                            NameTitle = "Stress",
                             NumberStudents = 6161,
                             Price = 129000,
                             ProductName = "Kỹ năng Quản lý Stress .",
@@ -1608,12 +1659,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("7bf227c8-0055-44d0-9416-bf781492b6eb"),
+                            Id = new Guid("078e27fe-c909-475a-9f57-952bf6b563a0"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Ngủ đủ giấc .",
                             Evaluate = 4.5,
                             FileName = "ngu.webp",
+                            NameTitle = "Ngủ đủ giấc",
                             NumberStudents = 1511,
                             Price = 256000,
                             ProductName = "Kỹ năng Ngủ đủ giấc .",
@@ -1622,12 +1674,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("8a63bfc1-3aa1-418b-810d-0a257b8f8145"),
+                            Id = new Guid("dd06980f-961d-48c1-855d-632796988972"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Trọng lượng .",
                             Evaluate = 3.0,
                             FileName = "trong.png",
+                            NameTitle = "Trọng lượng",
                             NumberStudents = 7373,
                             Price = 156000,
                             ProductName = "Kỹ năng Quản lý Trọng lượng .",
@@ -1636,12 +1689,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("408d3e90-f17c-49bc-a929-a9739cc397c1"),
+                            Id = new Guid("21aff7e9-3475-4ed6-aa51-a5ad0ee7de32"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Thời gian .",
                             Evaluate = 4.0,
                             FileName = "thoigian.jpg",
+                            NameTitle = "Quản lý thời gian",
                             NumberStudents = 1416,
                             Price = 279000,
                             ProductName = "Kỹ năng Quản lý Thời gian .",
@@ -1650,12 +1704,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("18cd27a7-1572-46bb-8fc4-07c924d3781b"),
+                            Id = new Guid("d8601d22-023a-4828-b55a-6b7bef4e2098"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Emotions .",
                             Evaluate = 3.5,
                             FileName = "th.jpg",
+                            NameTitle = "Quản lý Emotions",
                             NumberStudents = 5121,
                             Price = 178000,
                             ProductName = "Kỹ năng Quản lý Emotions .",
@@ -1664,12 +1719,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("4be971f5-ff27-4adb-b876-e95863d8126a"),
+                            Id = new Guid("43596d0c-c581-43ed-92f5-4b9dde91ce30"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Description = "Làm chủ hoàn toàn Tình thần và Tâm lý .",
+                            Description = "Làm chủ hoàn toàn Tinh thần và Tâm lý .",
                             Evaluate = 3.0,
                             FileName = "tamly.jpeg",
+                            NameTitle = "Tinh thần & Tâm lý",
                             NumberStudents = 1421,
                             Price = 231000,
                             ProductName = "Kỹ năng Tình thần và Tâm lý .",
@@ -1678,12 +1734,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("fa010360-8ef0-4653-bf38-081a3d3787e2"),
+                            Id = new Guid("bf72b521-4704-470b-be3d-36c3f60fec81"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Năng lượng .",
                             Evaluate = 4.0,
                             FileName = "Can bang.png",
+                            NameTitle = "Năng lượng",
                             NumberStudents = 6726,
                             Price = 261000,
                             ProductName = "Kỹ năng Quản lý Năng lượng .",
@@ -1692,12 +1749,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("6f5355e5-01fd-46c5-929c-3690e9fec424"),
+                            Id = new Guid("a90061ac-46c3-4078-8512-6ab87f818bbe"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Đau .",
                             Evaluate = 3.0,
                             FileName = "dau.jpg",
+                            NameTitle = "Quản lý Đau",
                             NumberStudents = 6231,
                             Price = 199000,
                             ProductName = "Kỹ năng Quản lý Đau .",
@@ -1706,12 +1764,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("57898d59-274e-41d2-b862-370cb7c84395"),
+                            Id = new Guid("dc78cdf0-e23c-4a66-8463-8b697bdf398e"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Áp lực Công việc .",
                             Evaluate = 4.5,
                             FileName = "apluc.jpg",
+                            NameTitle = "Áp lực công việc",
                             NumberStudents = 5122,
                             Price = 221000,
                             ProductName = "Kỹ năng Quản lý Áp lực Công việc .",
@@ -1720,12 +1779,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("9211e6f4-f390-4fd7-998e-ec2ed863b65f"),
+                            Id = new Guid("91a8f934-a817-4f3c-b790-38b59b537bf8"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Tiêu hóa .",
                             Evaluate = 4.5,
                             FileName = "tieuhoa.jpg",
+                            NameTitle = "Tiêu hóa",
                             NumberStudents = 6111,
                             Price = 266000,
                             ProductName = "Kỹ năng Quản lý Tiêu hóa .",
@@ -1734,12 +1794,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("835fbab3-c491-4981-89ab-e0df0164bbeb"),
+                            Id = new Guid("67bdeb34-43dd-44d6-a5de-3b74c0ffe175"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Thói quen Uống Nước .",
                             Evaluate = 4.0,
                             FileName = "uongnuoc.webp",
+                            NameTitle = "Uống nước",
                             NumberStudents = 3412,
                             Price = 155000,
                             ProductName = "Kỹ năng Quản lý Thói quen Uống Nước .",
@@ -1748,12 +1809,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("42dc5878-eb83-4502-814f-ff23cbf58dbf"),
+                            Id = new Guid("1740d805-a0f0-464e-9d7f-e03464203482"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Mức độ Caffeine .",
                             Evaluate = 4.5,
                             FileName = "cafe.jpg",
+                            NameTitle = "Caffeine",
                             NumberStudents = 8141,
                             Price = 179000,
                             ProductName = "Kỹ năng Quản lý Mức độ Caffeine .",
@@ -1762,12 +1824,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("858c7553-c2af-4eaa-962d-83b9125b9b6f"),
+                            Id = new Guid("c7a56ddb-e80b-4c92-ab8c-3d2cbc3af236"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Mức độ Đường huyết .",
                             Evaluate = 3.5,
                             FileName = "huyet.jpg",
+                            NameTitle = "Đường huyết",
                             NumberStudents = 8214,
                             Price = 256000,
                             ProductName = "Kỹ năng Quản lý Mức độ Đường huyết .",
@@ -1776,12 +1839,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("4136cf59-fea2-4df5-9c5e-2b13fe692c46"),
+                            Id = new Guid("72b74c94-3880-426c-8dc8-2ea5a921e557"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Thức ăn Nhanh .",
                             Evaluate = 4.5,
                             FileName = "annhanh.jpg",
+                            NameTitle = "Thức ăn nhanh",
                             NumberStudents = 6111,
                             Price = 200000,
                             ProductName = "Kỹ năng Quản lý Thức ăn Nhanh .",
@@ -1790,12 +1854,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("ce6c8831-4352-4b92-b030-2d87df4dc397"),
+                            Id = new Guid("056ceb2e-23af-43f8-b074-ce22842c96c3"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Tư duy Tích cực .",
                             Evaluate = 4.5,
                             FileName = "tuduy.png",
+                            NameTitle = "Tích cực",
                             NumberStudents = 1451,
                             Price = 100000,
                             ProductName = "Kỹ năng Tư duy Tích cực .",
@@ -1804,12 +1869,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("3bf7e9a9-f564-40ec-adda-5b833997e451"),
+                            Id = new Guid("105caa62-0c1c-41af-b57a-531b94c251d5"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Tìm hiểu Về Sức Khỏe .",
                             Evaluate = 4.0,
                             FileName = "suckhoe.jpg",
+                            NameTitle = "Sức khỏe",
                             NumberStudents = 5121,
                             Price = 300000,
                             ProductName = "Kỹ năng Tìm hiểu Về Sức Khỏe .",
@@ -1818,12 +1884,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("3e577a40-b9c3-404f-9b85-7d44c4200d20"),
+                            Id = new Guid("9f431126-1da5-4608-9f8a-7672b99769da"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Mức độ Dầu ăn .",
                             Evaluate = 4.5,
                             FileName = "dauan.jpg",
+                            NameTitle = "Dầu ăn",
                             NumberStudents = 5161,
                             Price = 137000,
                             ProductName = "Kỹ năng Quản lý Mức độ Dầu ăn .",
@@ -1832,12 +1899,13 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("610a8165-a1b1-4844-8d82-267ff1903fe3"),
+                            Id = new Guid("1e0d75d8-2d39-478b-8e87-2ad6bbc8cc4e"),
                             Author = "xiao Chun zz11",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Làm chủ hoàn toàn Quản lý Mối quan hệ Xã hội .",
                             Evaluate = 3.0,
                             FileName = "quanhe.png",
+                            NameTitle = "Xã hội",
                             NumberStudents = 6141,
                             Price = 146000,
                             ProductName = "Kỹ năng Quản lý Mối quan hệ Xã hội .",
@@ -1879,7 +1947,7 @@ namespace myApi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("823af859-77b2-4604-9811-48871b73cc86"),
+                            Id = new Guid("e2c625fb-0179-4464-9197-d96cf92b4ec4"),
                             Email = "tn01@gmail.com",
                             Money = 10000000,
                             Password = "1232003",
@@ -1889,7 +1957,7 @@ namespace myApi.Migrations
                         },
                         new
                         {
-                            Id = new Guid("ad5ddeed-0ed5-4ea1-9a41-ca17321824eb"),
+                            Id = new Guid("05bb8376-e057-42cc-812d-a9d9d0b63ce6"),
                             Email = "tn02@gmail.com",
                             Money = 10000000,
                             Password = "1232003",

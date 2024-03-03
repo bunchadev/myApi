@@ -2,7 +2,6 @@ using myApi.Data;
 using myApi.Models.Domain;
 using myApi.Models.Dto;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Mvc;
 using myApi.Dto.Domain;
 
 namespace myApi.Repositories
@@ -153,7 +152,7 @@ namespace myApi.Repositories
         }
         public async Task<List<ProductDto>> GetProductWithType(CheckType checkType)
         {
-            var products = await dbContext.Products.Where(x => x.Type == checkType.Type).ToListAsync();
+            var products = await dbContext.Products.Where(x => x.Type == checkType.Type).OrderByDescending(x => x.Evaluate).ToListAsync();
             if (Guid.TryParse(checkType.UserId, out Guid res))
             {
                 var UserProduct = await dbContext.UserProducts.Where(x => x.UserId == res && x.Type == "KH").ToListAsync();
@@ -197,7 +196,7 @@ namespace myApi.Repositories
 
                 var filePath = Path.Combine(uploadsFolder, file.FileName);
 
-                if (System.IO.File.Exists(filePath))
+                if (File.Exists(filePath))
                 {
                     return "400";
                 }
